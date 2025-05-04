@@ -1,0 +1,157 @@
+{
+  "name": "Ravender Singh Rana",
+  "label": "Data Engineer / BI Consultant",
+  "image_path": "portfolio_media/profile.jpg",
+  "contact": {
+    "email": "info.bilearner@gmail.com",
+    "phone": "",
+    "location": "New Delhi, India"
+  },
+  "summary": "Data Engineer and Power BI Consultant with expertise in building data pipelines, designing dashboards, and delivering business intelligence solutions. I create educational content on YouTube and Udemy, helping others master data engineering and analytics tools.",
+  "url": "https://bilearner.com",
+  "social_links": [
+    {
+      "label": "Udemy",
+      "url": "https://www.udemy.com/user/ravender-singh-rana-2/",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@bilearner",
+      "svg_path": "img/youtube.svg"
+    },
+    {
+      "label": "Instagram",
+      "url": "",
+      "svg_path": "img/instagram.svg"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/bitoollearner",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "HCLTech",
+      "position": "Data Engineer",
+      "url": "https://www.hcltech.com/",
+      "start_date": "2025",
+      "end_date": "Current",
+      "summary": "",
+      "highlights": [
+        "Integrated and processed data from multiple sources, handling various file formats like JSON, CSV, and Parquet",
+        "Delivered a project to migrate legacy on-premise processes to the cloud using Big Data technologies(PySpark)",
+        "Design and build process to calculate sale acquisition costs using Azure Databricks, Azure Synapse, and improving invoicing accuracy by 100%"
+      ]
+    },
+    {
+      "company": "Congruex Asia Pacific LLP",
+      "position": "Lead Developer",
+      "url": "https://www.congruex.com/apac/",
+      "start_date": "2021",
+      "end_date": "2025",
+      "summary": "",
+      "highlights": [
+        "Develop and maintain interactive and visually appealing reports and dashboards using Power BI.",
+        "Design and maintain data models that support reporting and analytics requirements.",
+        "Work closely with stakeholders to understand their data needs and objectives."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Educational Content Creator on YouTube",
+      "summary": "Channel focused on creating tutorials and walk-through for data engineering, power bi development and many more.",
+      "url": "https://www.youtube.com/@bilearner",
+      "highlights": ["Insurance Complaint Dashboard", "eNPS Survey Dashboard","HR Dashboard","Global Superstore Dashboard"],
+      "images": [
+        {
+          "img_path": "portfolio_media/insurance-dashboard.png",
+          "caption": "YouTube",
+          "link": "https://youtu.be/Q4jGyPu2IW8"
+        },
+        {
+          "img_path": "portfolio_media/survey-dashboard.png",
+          "caption": "YouTube",
+          "link": "https://youtu.be/sN11I5PQVwM"
+        },
+        {
+          "img_path": "portfolio_media/hr-dashboard.png",
+          "caption": "YouTube",
+          "link": "https://youtu.be/30mPtIjYZ8I"
+        },
+        {
+          "img_path": "portfolio_media/global-superstore-dashboard.png",
+          "caption": "YouTube",
+          "link": "https://youtu.be/FopHEXtaZ-g"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IGNOU",
+      "location": "New Delhi, India",
+      "url": "https://www.ignou.ac.in/",
+      "degrees": [
+        "Master of Computer Application (MCA)"
+      ],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2023"
+    },
+    {
+      "institution": "IGNOU",
+      "location": "New Delhi, India",
+      "url": "https://www.ignou.ac.in/",
+      "degrees": [
+        "Bachelor of Computer Application (BCA)"
+      ],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL, Databricks, Azure Data Factory, Power BI",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "PySpark, Python, Fabric",
+      "proficiency": 90,
+      "proficiency_label": "Advance"
+    },
+    {
+      "name": "Kafka, FastAPI, Airflow",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cricket",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/world-cup-2011.png",
+          "caption": "Cricket Odi World Cup 2011"
+        }
+      ]
+    },
+    {
+      "name": "Chess",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "portfolio_media/wooden-chess-board.png",
+          "caption": "Wooden Chess Board"
+        }
+      ]
+    }
+  ],
+  "languages": ["English","Hindi"],
+  "references": []
+}
