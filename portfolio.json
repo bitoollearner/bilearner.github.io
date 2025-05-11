@@ -21,9 +21,9 @@
       "svg_path": "img/youtube.svg"
     },
     {
-      "label": "Instagram",
-      "url": "",
-      "svg_path": "img/instagram.svg"
+      "label": "Facebook",
+      "url": "https://www.facebook.com/bitool.learner",
+      "svg_path": "img/facebook.svg"
     },
     {
       "label": "GitHub",
@@ -68,22 +68,22 @@
       "images": [
         {
           "img_path": "portfolio_media/insurance-dashboard.png",
-          "caption": "YouTube",
+          "caption": "Insurance Complaint Dashboard",
           "link": "https://youtu.be/Q4jGyPu2IW8"
         },
         {
           "img_path": "portfolio_media/survey-dashboard.png",
-          "caption": "YouTube",
+          "caption": "eNPS Survey Dashboard",
           "link": "https://youtu.be/sN11I5PQVwM"
         },
         {
           "img_path": "portfolio_media/hr-dashboard.png",
-          "caption": "YouTube",
+          "caption": "HR Dashboard",
           "link": "https://youtu.be/30mPtIjYZ8I"
         },
         {
           "img_path": "portfolio_media/global-superstore-dashboard.png",
-          "caption": "YouTube",
+          "caption": "Global Superstore Dashboard",
           "link": "https://youtu.be/FopHEXtaZ-g"
         }
       ]
@@ -132,26 +132,61 @@
   ],
   "interests": [
     {
-      "name": "Cricket",
+      "name": "Power Bi Data Analyst Associate",
       "summary": "",
+      "url": "https://bilearner.com",
       "images": [
         {
-          "img_path": "portfolio_media/world-cup-2011.png",
-          "caption": "Cricket Odi World Cup 2011"
+          "img_path": "portfolio_media/Microsoft_badge_da.png",
+          "caption": "Microsoft Certified"
         }
       ]
     },
     {
-      "name": "Chess",
+      "name": "Azure Fundamentals",
       "summary": "",
+      "url": "https://bilearner.com",
       "images": [
         {
-          "img_path": "portfolio_media/wooden-chess-board.png",
-          "caption": "Wooden Chess Board"
+          "img_path": "portfolio_media/Microsoft_badge_az.png",
+          "caption": "Microsoft Certified"
+        }
+      ]
+    },
+    {
+      "name": "Data Engineer Associate",
+      "summary": "",
+      "url": "https://bilearner.com",
+      "images": [
+        {
+          "img_path": "portfolio_media/db-associate-badge-de.png",
+          "caption": "Databricks Certified"
+        }
+      ]
+    },
+    {
+      "name": "Data Engineer Professional",
+      "summary": "",
+      "url": "https://bilearner.com",
+      "images": [
+        {
+          "img_path": "portfolio_media/professional-badge-de.png",
+          "caption": "Databricks Certified"
         }
       ]
     }
   ],
-  "languages": ["English","Hindi"],
+  "languages": [
+    {
+      "language" : "English",
+      "proficiency": 100,
+      "fluency": "Expert"
+    },
+    {
+      "language" : "Hindi",
+      "proficiency": 100,
+      "fluency": "Expert"
+    }
+  ],
   "references": []
 }

@@ -146,12 +146,45 @@
                 {% for lang in languages %}
                   <li>
                     <h3>{{ lang.language }}</h3>
-                    <p class="section-label">{{ lang.fluency }}</p>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-{{ lang.proficiency_label }}"
+                           role="meter"
+                           aria-valuenow="{{ lang.proficiency_label }}"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">{{ lang.fluency }}</span>
+                      </div>
+                    </div>
                   </li>
                 {% endfor %}
               </ul>
             </section>
           {% endif %}
+
+          {% if interests %}
+                      <section>
+                        <h2 class="section-heading">Interests</h2>
+                        {% for interest in interests %}
+                          <section>
+                            <h3>{{ interest.name }}</h3>
+                            {% if interest.summary %}<p>{{ interest.summary }}</p>{% endif %}
+                            {% if interest.images %}
+                              <div class="gallery side-gallery">
+                                {% for img in interest.images %}
+                                  <figure>
+                                    <img width="600"
+                                         height="338"
+                                         src="{{ img.img_path }}"
+                                         alt="{{ img.caption }}">
+                                    <figcaption>{{ img.caption }}</figcaption>
+                                  </figure>
+                                {% endfor %}
+                              </div>
+                            {% endif %}
+                          </section>
+                        {% endfor %}
+                      </section>
+                    {% endif %}
 
           {% if volunteer_experience %}
             <section>
