@@ -67,14 +67,9 @@
       "highlights": ["Insurance Complaint Dashboard", "eNPS Survey Dashboard","HR Dashboard","Global Superstore Dashboard"],
       "images": [
         {
-          "img_path": "portfolio_media/insurance-dashboard.png",
-          "caption": "Insurance Complaint Dashboard",
-          "link": "https://youtu.be/Q4jGyPu2IW8"
-        },
-        {
-          "img_path": "portfolio_media/survey-dashboard.png",
-          "caption": "eNPS Survey Dashboard",
-          "link": "https://youtu.be/sN11I5PQVwM"
+          "img_path": "portfolio_media/global-superstore-dashboard.png",
+          "caption": "Global Superstore Dashboard",
+          "link": "https://youtu.be/FopHEXtaZ-g"
         },
         {
           "img_path": "portfolio_media/hr-dashboard.png",
@@ -82,9 +77,54 @@
           "link": "https://youtu.be/30mPtIjYZ8I"
         },
         {
-          "img_path": "portfolio_media/global-superstore-dashboard.png",
-          "caption": "Global Superstore Dashboard",
-          "link": "https://youtu.be/FopHEXtaZ-g"
+          "img_path": "portfolio_media/survey-dashboard.png",
+          "caption": "eNPS Survey Dashboard",
+          "link": "https://youtu.be/sN11I5PQVwM"
+        },
+        {
+          "img_path": "portfolio_media/insurance-dashboard.png",
+          "caption": "Insurance Complaint Dashboard",
+          "link": "https://youtu.be/Q4jGyPu2IW8"
+        }
+      ]
+    }
+  ],
+  "kaggle_projects": [
+    {
+      "title": "Dataset Expert on Kaggle",
+      "summary": "I am passionate a Visualization Expert, passionate about transforming complex data into compelling, easy-to-understand visual stories. My skill set includes a deep knowledge of various data visualization tools and techniques, enabling me to present data in ways that highlight key insights and drive informed decision-making.",
+      "url": "https://www.kaggle.com/ravindrasinghrana",
+      "highlights": ["Carbon (CO2) Emissions", "Job Dataset","Employee/HR Dataset (All in One)"],
+      "images": [
+        {
+          "img_path": "portfolio_media/co2-dataset.png",
+          "caption": "Carbon (CO2) Emissions",
+          "link": "https://www.kaggle.com/datasets/ravindrasinghrana/carbon-co2-emissions"
+        },
+        {
+          "img_path": "portfolio_media/job-dataset.png",
+          "caption": "Job Dataset",
+          "link": "https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset"
+        },
+        {
+          "img_path": "portfolio_media/HR Dataset.jpg",
+          "caption": "Employee/HR Dataset (All in One)",
+          "link": "https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset"
+        }
+      ]
+    }
+  ],
+  "udemy_projects": [
+    {
+      "title": "Educational Instructor on Udemy",
+      "summary": "I am a Udemy Instructor and my teaching focuses on industry-based projects, and I am passionate about ensuring the success of my students. Unlike standard IT trainers, I use real-world projects and examples in my courses to help concepts stick and provide guidance on best practices. Below are my best courses on Udemy. Enjoy!",
+      "url": "https://www.udemy.com/user/ravender-singh-rana-2/",
+      "highlights": ["Power BI Mastery"],
+      "images": [
+        {
+          "img_path": "portfolio_media/insurance-dashboard.png",
+          "caption": "Power BI Mastery",
+          "link": "https://youtu.be/Q4jGyPu2IW8"
         }
       ]
     }

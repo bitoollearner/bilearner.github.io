@@ -135,10 +135,87 @@
             </section>
           {% endif %}
 
+          {% if udemy_projects %}
+            <section>
+              <h2 class="section-heading">Udemy</h2>
+              {% for project in udemy_projects %}
+                <section>
+                  <h3>
+                    {% if project.url %}
+                      <a href="{{ project.url }}">{{ project.title }}</a>
+                    {% else %}
+                      {{ project.title }}
+                    {% endif %}
+                  </h3>
+                  {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
+                  {% if project.highlights %}
+<!--                    <ul>-->
+<!--                      {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}-->
+<!--                    </ul>-->
+                  {% endif %}
+                  {% if project.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in project.images %}
+                        <figure>
+                          <a href="{{img.link}}">
+                          <img width="200"
+                               height="200"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          </a>
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
           {% if projects %}
             <section>
               <h2 class="section-heading">YouTube</h2>
               {% for project in projects %}
+                <section>
+                  <h3>
+                    {% if project.url %}
+                      <a href="{{ project.url }}">{{ project.title }}</a>
+                    {% else %}
+                      {{ project.title }}
+                    {% endif %}
+                  </h3>
+                  {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
+                  {% if project.highlights %}
+<!--                    <ul>-->
+<!--                      {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}-->
+<!--                    </ul>-->
+                  {% endif %}
+                  {% if project.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in project.images %}
+                        <figure>
+                          <a href="{{img.link}}">
+                          <img width="200"
+                               height="200"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          </a>
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+
+          {% if kaggle_projects %}
+            <section>
+              <h2 class="section-heading">Kaggle</h2>
+              {% for project in kaggle_projects %}
                 <section>
                   <h3>
                     {% if project.url %}
