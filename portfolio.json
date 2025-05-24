@@ -21,6 +21,11 @@
       "svg_path": "img/youtube.svg"
     },
     {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bilearner/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
       "label": "Facebook",
       "url": "https://www.facebook.com/bitool.learner",
       "svg_path": "img/facebook.svg"
