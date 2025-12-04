@@ -99,8 +99,13 @@
       "title": "Dataset Expert on Kaggle",
       "summary": "I am passionate a Visualization Expert, passionate about transforming complex data into compelling, easy-to-understand visual stories. My skill set includes a deep knowledge of various data visualization tools and techniques, enabling me to present data in ways that highlight key insights and drive informed decision-making.",
       "url": "https://www.kaggle.com/ravindrasinghrana",
-      "highlights": ["Carbon (CO2) Emissions", "Job Dataset","Employee/HR Dataset (All in One)"],
+      "highlights": ["Global Airplane Crashes","Carbon (CO2) Emissions", "Job Dataset","Employee/HR Dataset (All in One)"],
       "images": [
+        {
+          "img_path": "portfolio_media/aircraft-dataset.jpg",
+          "caption": "Global Airplane Crashes",
+          "link": "https://www.kaggle.com/datasets/ravindrasinghrana/airplane-crashes-since-1919"
+        },
         {
           "img_path": "portfolio_media/co2-dataset.png",
           "caption": "Carbon (CO2) Emissions",
@@ -177,9 +182,20 @@
   ],
   "interests": [
     {
+      "name": "Fabric Data Engineer Associate",
+      "summary": "",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/RavenderSinghRana-9637/63278081090D39C?sharingId=2348862F66582BD7",
+      "images": [
+        {
+          "img_path": "portfolio_media/Microsoft_badge_fabric.png",
+          "caption": "Microsoft Certified"
+        }
+      ]
+    },
+    {
       "name": "Power Bi Data Analyst Associate",
       "summary": "",
-      "url": "https://bilearner.com",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/RavenderSinghRana-9637/4C8396AE3D3C743D?sharingId=2348862F66582BD7",
       "images": [
         {
           "img_path": "portfolio_media/Microsoft_badge_da.png",
@@ -188,34 +204,12 @@
       ]
     },
     {
-      "name": "Azure Fundamentals",
-      "summary": "",
-      "url": "https://bilearner.com",
-      "images": [
-        {
-          "img_path": "portfolio_media/Microsoft_badge_az.png",
-          "caption": "Microsoft Certified"
-        }
-      ]
-    },
-    {
       "name": "Data Engineer Associate",
       "summary": "",
-      "url": "https://bilearner.com",
+      "url": "https://credentials.databricks.com/4d45d377-6d82-4e08-99e2-2b5f35c9cf76",
       "images": [
         {
-          "img_path": "portfolio_media/db-associate-badge-de.png",
-          "caption": "Databricks Certified"
-        }
-      ]
-    },
-    {
-      "name": "Data Engineer Professional",
-      "summary": "",
-      "url": "https://bilearner.com",
-      "images": [
-        {
-          "img_path": "portfolio_media/professional-badge-de.png",
+          "img_path": "portfolio_media/associate-badge-de.png",
           "caption": "Databricks Certified"
         }
       ]

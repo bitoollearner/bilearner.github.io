@@ -1,7 +1,6 @@
 import json
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
