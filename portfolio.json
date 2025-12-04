@@ -139,6 +139,43 @@
       ]
     }
   ],
+  "repo_list": [
+    {
+      "about" : "A collection of GitHub repositories showcasing hands-on projects, tools, and open-source contributions. These repositories represent practical applications of concepts in data engineering, BI, automation, and development.",
+      "repos": [
+        {
+          "repo_name" : "LeetCode SQL Questions Solutions (Pyspark)",
+          "url": "https://github.com/bitoollearner/leetcode-pyspark/blob/main/README.md/",
+          "description": "",
+          "tech_stack": [
+                        "PySpark",
+                        "SQL"
+                    ]
+        },
+        {
+          "repo_name" : "Microsoft Fabric Handbook",
+          "url": "https://github.com/bitoollearner/leetcode-pyspark/blob/main/README.md/",
+          "description": "",
+          "tech_stack": [
+                        "Fabric",
+                        "PySpark",
+                        "SQL"
+                    ]
+        },
+        {
+          "repo_name" : "Big Data Engineering Projects",
+          "url": "https://github.com/bitoollearner/leetcode-pyspark/blob/main/README.md/",
+          "description": "",
+          "tech_stack": [
+                        "Fabric",
+                        "PySpark",
+                        "SQL",
+                        "Databricks"
+                    ]
+        }
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "IGNOU",

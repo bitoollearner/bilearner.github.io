@@ -250,7 +250,37 @@
             </section>
           {% endif %}
 
-          {% if volunteer_experience %}
+        {% if repo_list %}
+        <section>
+          <h2 class="section-heading">GitHub Repositories</h2>
+
+          {% for repo_group in repo_list %}
+            {% if repo_group.about %}
+              <p>{{ repo_group.about }}</p>
+            {% endif %}
+
+            <ul>
+              {% for repo in repo_group.repos %}
+                <li>
+                  {% if repo.url %}
+                  <a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">
+                    {{ repo.repo_name }}{% if repo.tech_stack %} - {{ repo.tech_stack | join(', ') }}{% endif %}
+                  </a>
+                  {% else %}
+                    {{ repo.repo_name }}
+                  {% endif %}
+
+                  {% if repo.description %}
+                  <div class="repo-desc">{{ repo.description }}</div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </section>
+        {% endif %}
+
+            {% if volunteer_experience %}
             <section>
               <h2 class="section-heading">Volunteer Experience</h2>
               {% for vol in volunteer_experience %}
